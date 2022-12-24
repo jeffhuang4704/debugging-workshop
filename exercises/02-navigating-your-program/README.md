@@ -493,6 +493,7 @@ Sometimes you want to set a breakpoint but don't want to break every time it
 is hit, only on a certain condition. Delve supports this with the `condtion`
 or `cond` command. Let's see how that works:
 
+:100: 
 ```
 $ cd exercises/02-navigating-your-program/condition# dlv debug
 (dlv) b handler main.handler
