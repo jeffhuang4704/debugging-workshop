@@ -138,16 +138,16 @@ the remote format, etc please let us know by filling out [this form][feedback]!
 [install-rr]: https://rr-project.org/
 [install-bpftrace]: https://github.com/iovisor/bpftrace/blob/master/INSTALL.md
 
-[00]: https://github.com/jasonkeene/debugging-workshop/blob/master/exercises/00-introduction
-[01]: https://github.com/jasonkeene/debugging-workshop/blob/master/exercises/01-starting-a-debugging-session
-[02]: https://github.com/jasonkeene/debugging-workshop/blob/master/exercises/02-navigating-your-program
-[03]: https://github.com/jasonkeene/debugging-workshop/blob/master/exercises/03-demystifying-debuggers
-[04]: https://github.com/jasonkeene/debugging-workshop/blob/master/exercises/04-remote-debugging
-[05]: https://github.com/jasonkeene/debugging-workshop/blob/master/exercises/05-debugging-inside-a-container
-[06]: https://github.com/jasonkeene/debugging-workshop/blob/master/exercises/06-debugging-from-core-dumps
-[07]: https://github.com/jasonkeene/debugging-workshop/blob/master/exercises/07-automating-delve
-[08]: https://github.com/jasonkeene/debugging-workshop/blob/master/exercises/08-deterministic-debugging
-[09]: https://github.com/jasonkeene/debugging-workshop/blob/master/exercises/09-pprof
-[10]: https://github.com/jasonkeene/debugging-workshop/blob/master/exercises/10-bpftrace
+[00]: https://github.com/jeffhuang4704/debugging-workshop/tree/master/exercises/00-introduction
+[01]: https://github.com/jeffhuang4704/debugging-workshop/tree/master/exercises/01-starting-a-debugging-session
+[02]: https://github.com/jeffhuang4704/debugging-workshop/tree/master/exercises/02-navigating-your-program
+[03]: https://github.com/jeffhuang4704/debugging-workshop/tree/master/exercises/03-demystifying-debuggers
+[04]: https://github.com/jeffhuang4704/debugging-workshop/tree/master/exercises/04-remote-debugging
+[05]: https://github.com/jeffhuang4704/debugging-workshop/tree/master/exercises/05-debugging-inside-a-container
+[06]: https://github.com/jeffhuang4704/debugging-workshop/tree/master/exercises/06-debugging-from-core-dumps
+[07]: https://github.com/jeffhuang4704/debugging-workshop/tree/master/exercises/07-automating-delve
+[08]: https://github.com/jeffhuang4704/debugging-workshop/tree/master/exercises/08-deterministic-debugging
+[09]: https://github.com/jeffhuang4704/debugging-workshop/tree/master/exercises/09-pprof
+[10]: https://github.com/jeffhuang4704/debugging-workshop/tree/master/exercises/10-bpftrace
 
 [feedback]: https://forms.gle/7utCyAqPwMcPBdQJ9

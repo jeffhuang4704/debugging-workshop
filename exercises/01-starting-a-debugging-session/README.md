@@ -178,7 +178,7 @@ This should block as the breakpoint has been hit:
     20: }
 ```
 
-:point_right: We can then inspect the request:
+:point_right: :100: We can then inspect the request:
 
 ```
 (dlv) p req.Header["User-Agent"][0]
