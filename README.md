@@ -4,9 +4,6 @@
 To get back to here: [bit.ly/debugging-workshop][bitly]  
 Slack Channel: [#gophercon-2020-debugging-workshop][slack]
 
-## my edit
-
-<span style="color:blue">some *blue* text</span>
 
 ### Course Objective
 
