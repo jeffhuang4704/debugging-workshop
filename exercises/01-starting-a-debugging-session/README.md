@@ -219,14 +219,14 @@ Now use `curl` to send requests to the server:
 $ curl localhost:12345
 ```
 
-Delve should output something like:
+:100: Delve should output something like:
 
 ```
 > goroutine(49): main.handler(net/http.ResponseWriter(*net/http.response) 0xc0001bd888, ("*net/http.Request")(0xc000198f00))
  => ()
 ```
 
-Since the arguments are pointer types you see the memory address for the
+:100: Since the arguments are pointer types you see the memory address for the
 value that was passed. Let's try tracing every method of `*http.Request` to
 see what methods get called.
 
@@ -234,6 +234,7 @@ see what methods get called.
 $ dlv trace -p 94244 '^net/http.\(\*Request\)'
 ```
 
+:100: 
 When you make a request you should see some output like this:
 
 ```
