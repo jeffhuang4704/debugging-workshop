@@ -533,12 +533,12 @@ $ curl localhost:12345/break
 (dlv)
 ```
 
-This is incredibly useful in eliminating situations where most of the time
+:point_right: :100: This is incredibly useful in eliminating situations where most of the time
 you do not want to break. Note, the implementation of this is that the
 breakpoint is still hit but the process is just continued if the condition
 evaluates to false.
 
-With the `on` command you can register commands to run after the breakpoint
+:point_right: :100: With the `on` command you can register commands to run after the breakpoint
 fires. This is useful for gathering information. For example:
 
 ```
