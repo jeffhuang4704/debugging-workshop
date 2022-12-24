@@ -200,7 +200,7 @@ going to use it for the next exercise.
 
 The `trace` command is a bit different than the rest in that it doesn't
 provide you a full debugging prompt. Instead, it allows you to log out when
-specific functions are called in your program. You provide a regular
+specific functions are called in your program. :100: You provide a regular
 expression that matches the symbol names of the functions you would like to
 trace. Delve will then set tracepoints on these functions. Tracepoints are
 breakpoints that immediately log what function name and arguments and then
@@ -249,7 +249,7 @@ When you make a request you should see some output like this:
 > goroutine(11): net/http.(*Request).ProtoAtLeast(("*net/http.Request")(0xc000076600), 1, 1) => (true)
 ```
 
-You could do the same for `*http.response`:
+:100: You could do the same for `*http.response`:
 
 ```
 $ dlv trace -p 94244 '^net/http.\(\*response\)'
@@ -268,7 +268,7 @@ $ dlv trace -p 94244 '^net/http.\(\*response\)'
  => (true)
 ```
 
-This allows you to determine empirically what functions are called, with what
+:100: This allows you to determine empirically what functions are called, with what
 arguments, and in what order. Much quicker than adding log lines to your
 source code! To find out what functions are in your binary that you could
 trace you can attach to the process again and run the `funcs` command:
@@ -279,14 +279,14 @@ Type 'help' for list of commands.
 (dlv) funcs
 ```
 
-This will output all functions that can be traced. You can filter this list
+:100: This will output all functions that can be traced. You can filter this list
 down by regex:
 
 ```
 (dlv) funcs ^net/http
 ```
 
-These function names might seem a bit weird as that is not how you would
+:point_right: These function names might seem a bit weird as that is not how you would
 refer to them in a Go program.
 
 These are the symbol names of the compiled binary. Symbol names identify
