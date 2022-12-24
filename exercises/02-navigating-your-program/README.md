@@ -498,7 +498,7 @@ or `cond` command. Let's see how that works:
 $ cd exercises/02-navigating-your-program/condition# dlv debug
 (dlv) b handler main.handler
 Breakpoint handler set at 0x7306b8 for main.handler() ./main.go:17
-(dlv) cond handler r.URL.Path == "/break"
+:100: :point_right: (dlv) cond handler r.URL.Path == "/break"
 (dlv) c
 listening on localhost:12345
 PID is 25348
