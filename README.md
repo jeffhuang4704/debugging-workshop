@@ -4,6 +4,10 @@
 To get back to here: [bit.ly/debugging-workshop][bitly]  
 Slack Channel: [#gophercon-2020-debugging-workshop][slack]
 
+## my edit
+
+<span style="color:blue">some *blue* text</span>
+
 ### Course Objective
 
 Solving bugs can be incredibly challenging. It can often feel like our
